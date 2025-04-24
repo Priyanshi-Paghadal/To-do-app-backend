@@ -7,7 +7,7 @@ const db = require('../backEnd/config/mongoose');
 app.use(express.json());
 
 const corsOptions = {
-    origin: 'http://localhost:5173',  
+    origin: 'https://to-do-app-cyan-seven.vercel.app/',  
     methods: ['GET', 'POST', 'PUT', 'DELETE'],  
     allowedHeaders: ['Content-Type']
 };
